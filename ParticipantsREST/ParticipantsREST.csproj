@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ParticipantsLib">
+      <HintPath>..\ParticipantsLib\obj\Debug\net8.0\ParticipantsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PokemonLib">
+      <HintPath>..\..\..\..\OneDrive\Skrivebord\PokemonLib-master\PokemonLib-master\PokemonLib\bin\Debug\net8.0\PokemonLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
